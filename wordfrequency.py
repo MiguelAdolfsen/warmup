@@ -18,7 +18,7 @@ def read_file(file_name):
     """
     with open(file_name, encoding='utf-8') as file:
         data = file.read()
-    lines = data.split('\n')
+    lines = data.splitlines()
     return lines
 
 
